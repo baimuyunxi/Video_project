@@ -8,13 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ssm_service" />
         <module name="ssm_controller" />
-        <module name="springmvc_ssm" />
-        <module name="smm_pojo" />
+        <module name="ssm_pojo" />
         <module name="ssm_dao" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="smm_control" target="1.8" />
+      <module name="springmvc_ssm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

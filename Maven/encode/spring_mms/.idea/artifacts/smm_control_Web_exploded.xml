@@ -2,12 +2,12 @@
   <artifact type="exploded-war" name="smm_control:Web exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/smm_control_Web_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="smm_control/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="smm_control" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="smm_control/web/Web" />
     </root>
   </artifact>
 </component>

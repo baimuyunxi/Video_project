@@ -1,4 +1,4 @@
-[^时间]: 21：21-00：20
+[^时间]: 2023.2.2
 [^集数]: P1-P14
 
 ### 问题：（1-5了解  6-7熟记）
@@ -66,7 +66,7 @@ mvn install     #安装到本地仓库
 
 - 声明优先：相同层级时，配置靠前的覆盖配置靠后的
 
-- 特殊优先：相同层级资源版本不同，后配置的覆盖先配置的
+- 特殊优先：同层级配置了相同资源不同版本，后配置的覆盖先配置的
 
   ![image-20230201230722503](D:\Typora\Video\image\2023_2_1\image-20230201230722503.png)
 
@@ -115,6 +115,7 @@ mvn install     #安装到本地仓库
             <groupId>mysql</groupId>  
             <artifactId>mysql-connector-java</artifactId>  
             <version>5.1.10</version>  
+            <!--当前依赖不使用这个包；为TRUE时为排除依赖就是不使用，默认为FALSE-->
             <optional>true</optional>  
         </dependency>  
         <dependency>  
