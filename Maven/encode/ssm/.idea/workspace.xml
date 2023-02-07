@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c80268b-7033-493f-8f4a-7a373bb8ee93" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/../spring_mms/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/.idea/artifacts/smm_control_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/.idea/spring_mms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/.idea/springmvc_ssm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/java/com/itheima/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/java/com/itheima/controller/interceptor/ProjectExceptionAdivce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/java/com/itheima/controller/results/Code.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/java/com/itheima/controller/results/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/java/com/itheima/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/java/com/itheima/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/java/com/itheima/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/java/com/itheima/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/java/com/itheima/system/exception/BusinessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/java/com/itheima/system/exception/SystemException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/resources/com/itheima/dao/UserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/resources/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/test/java/com/itheima/service/UserServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/test/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/src/test/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/classes/com/itheima/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/classes/com/itheima/controller/interceptor/ProjectExceptionAdivce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/classes/com/itheima/controller/results/Code.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/classes/com/itheima/controller/results/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/classes/com/itheima/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/classes/com/itheima/dao/UserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/classes/com/itheima/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/classes/com/itheima/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/classes/com/itheima/system/exception/BusinessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/classes/com/itheima/system/exception/SystemException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/test-classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/test-classes/com/itheima/service/UserServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/test-classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/tomcat/logs/access_log.2020-01-08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/tomcat/logs/access_log.2020-02-25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/springmvc_ssm/target/tomcat/logs/access_log.2020-02-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_controller/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_controller/src/main/java/com/itheima/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_controller/src/main/java/com/itheima/controller/interceptor/ProjectExceptionAdivce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_controller/src/main/java/com/itheima/controller/results/Code.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_controller/src/main/java/com/itheima/controller/results/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_controller/src/main/java/com/itheima/system/exception/BusinessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_controller/src/main/java/com/itheima/system/exception/SystemException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_controller/src/main/resources/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_controller/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_controller/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_dao/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_dao/src/main/java/com/itheima/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_dao/src/main/resources/applicationContext-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_dao/src/main/resources/com/itheima/dao/UserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_dao/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_dao/target/classes/applicationContext-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_dao/target/classes/com/itheima/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_dao/target/classes/com/itheima/dao/UserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_dao/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_dao/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_dao/target/ssm_dao-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_pojo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_pojo/src/main/java/com/itheima/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_pojo/target/classes/com/itheima/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_pojo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_pojo/target/smm_pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_pojo/target/ssm_pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/src/main/java/com/itheima/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/src/main/java/com/itheima/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/src/main/resources/applicationContext-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/src/main/resources/com/itheima/dao/UserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/src/main/resources/com/itheima/dao/applicationContext-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/src/test/java/com/itheima/service/UserServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/src/test/resources/applicationContext-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/src/test/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/classes/applicationContext-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/classes/com/itheima/dao/UserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/classes/com/itheima/dao/applicationContext-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/classes/com/itheima/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/surefire-reports/TEST-com.itheima.service.UserServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/surefire-reports/com.itheima.service.UserServiceTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/surefire/surefirebooter1415380618142030747.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/surefire/surefirebooter1486993135399092983.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/surefire/surefirebooter1581837484101728412.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/surefire/surefirebooter5526128516438876958.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/surefire/surefirebooter5731195501181161536.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/surefire/surefirebooter6158715984623122695.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/surefire/surefirebooter6475780022410999711.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/surefire/surefirebooter6894356786005171578.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/surefire/surefirebooter8953307242553319255.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/surefire/surefirebooter9193857253368729536.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/test-classes/applicationContext-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/test-classes/com/itheima/service/UserServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_mms/ssm_service/target/test-classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../text/Maven高级_聚合.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2LPcI6HYXP5Glom5BOgaR6aRoYB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Typora/Video/Maven/encode/ssm",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6c80268b-7033-493f-8f4a-7a373bb8ee93" name="变更" comment="" />
+      <created>1675776077441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675776077441</updated>
+      <workItem from="1675776077919" duration="4600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
