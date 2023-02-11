@@ -1,0 +1,4 @@
+com\example\SpringBootStarterAutoconfigureApplication.class
+com\example\service\HelloServiceAutoConfiguration.class
+com\example\service\HelloService.class
+com\example\service\HelloProperties.class
