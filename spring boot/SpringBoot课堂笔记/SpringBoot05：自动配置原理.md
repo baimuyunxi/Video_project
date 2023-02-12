@@ -203,22 +203,22 @@ SpringBoot官方文档中有大量的配置，我们无法全部记住,官网：
     ```java
     //表示这是一个配置类，和以前编写的配置文件一样，也可以给容器中添加组件；
     @Configuration 
-   
+      
     //启动指定类的ConfigurationProperties功能；
       //进入这个HttpProperties查看，将配置文件中对应的值和HttpProperties绑定起来；
       //并把HttpProperties加入到ioc容器中
     @EnableConfigurationProperties({HttpProperties.class}) 
-   
+      
     //Spring底层@Conditional注解
       //根据不同的条件判断，如果满足指定的条件，整个配置类里面的配置就会生效；
       //这里的意思就是判断当前应用是否是web应用，如果是，当前配置类生效
     @ConditionalOnWebApplication(
         type = Type.SERVLET
     )
-   
+      
     //判断当前项目有没有这个类CharacterEncodingFilter；SpringMVC中进行乱码解决的过滤器；
     @ConditionalOnClass({CharacterEncodingFilter.class})
-   
+      
     //判断配置文件中是否存在某个配置：spring.http.encoding.enabled；
       //如果不存在，判断也是成立的
       //即使我们配置文件中不配置pring.http.encoding.enabled=true，也是默认生效的；
@@ -227,7 +227,7 @@ SpringBoot官方文档中有大量的配置，我们无法全部记住,官网：
         value = {"enabled"},
         matchIfMissing = true
     )
-   
+      
     public class HttpEncodingAutoConfiguration {
         //他已经和SpringBoot的配置文件映射了
         private final Encoding properties;
@@ -235,7 +235,7 @@ SpringBoot官方文档中有大量的配置，我们无法全部记住,官网：
         public HttpEncodingAutoConfiguration(HttpProperties properties) {
             this.properties = properties.getEncoding();
         }
-   
+      
         //给容器中添加一个组件，这个组件的某些值需要从properties中获取
         @Bean
         @ConditionalOnMissingBean //判断容器没有这个组件？
@@ -301,7 +301,7 @@ SpringBoot官方文档中有大量的配置，我们无法全部记住,官网：
 | @Conditional扩展注解            | 作用(判断是否满足当前指定条件)                   |
 | ------------------------------- | ------------------------------------------------ |
 | @ConditionalOnJava              | 系统的java版本是否符合要求                       |
-| @ConditionalOnJava              | 容器中存在指定Bean ;                             |
+| @ConditionalOnBean              | 容器中存在指定Bean ;                             |
 | @ConditionalOnMissingBean       | 容器中不存在指定Bean ;                           |
 | @ConditionalOnExpression        | 满足SpEL表达式指定                               |
 | @ConditionalOnClass             | 系统中有指定的类                                 |
