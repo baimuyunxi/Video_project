@@ -7,6 +7,14 @@
 <body>
     <h1>我的第一个spring boot项目</h1>
 
+    <!--th:utext 转义  th:text 不转义-->
+    <div  th:utext="${mass}" th:style="${mass_sty}"></div>
     <div  th:text="${mass}" th:style="${mass_sty}"></div>
+
+    <!--遍历数组-->
+    <hr>
+<!--        <p th:each="user: ${user}" th:text="${user}"></p>-->
+    <p th:each="user: ${user}" >[[ ${user} ]]</p>
+
 </body>
 </html>
