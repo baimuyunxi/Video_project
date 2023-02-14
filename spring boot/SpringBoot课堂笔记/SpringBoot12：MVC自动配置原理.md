@@ -295,7 +295,7 @@ If you want to take complete control of Spring MVC, you can add your own @Config
   
       @Override
       public void addViewControllers(ViewControllerRegistry registry) {
-          // 浏览器发送/test ， 就会跳转到test页面；
+          // 浏览器发送/test2 ， 就会跳转到test页面；
           registry.addViewController("/test2").setViewName("test");
       }
   }
