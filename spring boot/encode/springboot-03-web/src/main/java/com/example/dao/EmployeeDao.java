@@ -40,17 +40,17 @@ public class EmployeeDao {
     }
 
     // 查询全部员工信息
-    public Collection<Employee> getAll(){
+    public Collection<Employee> getAll() {
         return employees.values();
     }
 
     // 通过id查询员工
-    public Employee getEmployeeById(Integer id){
+    public Employee getEmployeeById(Integer id) {
         return employees.get(id);
     }
 
     // 通过id删除员工
-    public Employee delete(Integer id){
-        employees.remove(id);
+    public Employee delete(Integer id) {
+        return employees.remove(id);
     }
 }
