@@ -12,7 +12,7 @@ import java.sql.SQLException;
 class SpringbootJdbcApplicationTests {
 
 	@Autowired
-	DataSource dataSource;
+	 DataSource dataSource;
 
 	@Test
 	void contextLoads() throws SQLException {
