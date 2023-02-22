@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace=绑定一个对应的Dao/Mapper接口-->
+<mapper namespace="com.example.mapper.EmployeeMapper">
+
+    <select id="queryEmployeeList" resultType="User">
+        select * from mybatis_test.employee;
+    </select>
+
+    <select id="queryEmployeeById" resultType="User">
+        select * from mybatis_test.employee where id = #{id};
+    </select>
+
+    <insert id="addEmployee" parameterType="User">
+        insert into mybatis_test.employee (id, lastName, email, gander,department,birth) values
+            (#{id},#{lastName},#{email},#{gander},#{department},#{birth});
+    </insert>
+
+    <update id="updateEmployee" parameterType="User">
+        update mybatis_test.employee set lastName=#{lastName},email = #{email} where id = #{id};
+    </update>
+
+    <delete id="deleteEmployee" parameterType="int">
+        delete from mybatis_test.employee where id = #{id}
+    </delete>
+</mapper>

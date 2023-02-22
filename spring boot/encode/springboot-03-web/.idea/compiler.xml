@@ -14,7 +14,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="springboot-03-web" options="-parameters" />
+      <module name="springboot-03-web" options="" />
       <module name="springboot_web" options="-parameters" />
     </option>
   </component>

@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-public class MyMvcConfig implements WebMvcConfigurer {
+public class MyMvcConfig implements WebMvcConfigurer{
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/").setViewName("index");
@@ -16,15 +16,16 @@ public class MyMvcConfig implements WebMvcConfigurer {
         registry.addViewController("/main.html").setViewName("dashboard");
     }
 
-    // 自定义国际化的组件生效
-    @Bean
-    public LocaleResolver localeResolver(){
+    //自定义的国际化组件就生效了
+    @Bean("localeResolver")
+    public LocaleResolver locale() {
         return new MyLocaleResolver();
     }
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("/**").excludePathPatterns("/index" +
-                ".html","/","/user/login","/css/*","/img/*","/js/*");
+        registry.addInterceptor(new LoginHandlerInterceptor())
+                .addPathPatterns("/**")
+                .excludePathPatterns("/index.html","/","/user/login","/css/**","/js/**","/img/**");
     }
 }
