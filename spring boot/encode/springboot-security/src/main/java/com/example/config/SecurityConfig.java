@@ -30,6 +30,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         // 没有权限到登录页面
         http.formLogin();
 
+        // 防止网站工具 ： get post
+        http.cors().disable(); // 关闭csrf功能
 
+        // 注销功能
+        http.logout().logoutSuccessUrl("/login");
     }
 }
