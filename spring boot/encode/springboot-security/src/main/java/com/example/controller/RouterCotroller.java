@@ -12,7 +12,7 @@ public class RouterCotroller {
         return "index";
     }
 
-    @RequestMapping("/login")
+    @RequestMapping("/toLogin")
     public String toLogin(){
         return "views/login";
     }
