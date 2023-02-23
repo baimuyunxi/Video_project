@@ -28,12 +28,15 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/level3/**").hasRole("vip3");
 
         // 没有权限到登录页面
-        http.formLogin();
+        http.formLogin().loginPage("/toLogin").loginProcessingUrl("/login");
 
         // 防止网站工具 ： get post
         http.cors().disable(); // 关闭csrf功能
 
         // 注销功能
         http.logout().logoutSuccessUrl("/login");
+
+        // 开启记住我功能  默认保存两周
+        http.rememberMe().rememberMeParameter("remember");
     }
 }
