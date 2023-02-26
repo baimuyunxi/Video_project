@@ -22,4 +22,9 @@ public class MyController {
     public String update(){
         return "/user/update";
     }
+
+    @RequestMapping("/login")
+    public String toLogin(){
+        return "login";
+    }
 }
