@@ -5,6 +5,7 @@ import com.example.service.UserService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
+import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
@@ -21,7 +22,11 @@ public class UserRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
         System.out.println("执行了=>授权doGetAuthorizationInfo");
-        return null;
+
+        SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
+
+        info.addStringPermission("user:add");
+        return info;
     }
 
     // 认证

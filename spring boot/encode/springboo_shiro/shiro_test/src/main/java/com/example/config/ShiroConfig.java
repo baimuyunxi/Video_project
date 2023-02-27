@@ -28,12 +28,17 @@ public class ShiroConfig {
 
         Map<String, String> filterMap = new LinkedHashMap<>();
 
+        // 授权
+        filterMap.put("/user/add","perms[user:add]");
+
 //        filterMap.put("/user/add","authc");
 //        filterMap.put("/user/update","authc");
         filterMap.put("/user/*","authc");
 
         bean.setFilterChainDefinitionMap(filterMap);
-        bean.setLoginUrl("/login");
+        bean.setLoginUrl("/toLogin");
+
+        bean.setUnauthorizedUrl("/noauth");
         return bean;
     }
 
