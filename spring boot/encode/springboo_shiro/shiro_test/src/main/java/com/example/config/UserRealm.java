@@ -7,6 +7,7 @@ import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
+import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,8 +42,11 @@ public class UserRealm extends AuthorizingRealm {
         UsernamePasswordToken userToken = (UsernamePasswordToken) token;
         // 用户认证 密码认证只身做了
         User user = userService.queryUserByName(userToken.getUsername());
-        if (user == null)
-            return null;
-        return new SimpleAuthenticationInfo(user,user.getPwd(),"");
+        // 获取 session 信息 如果用户登录了，隐藏登录按钮
+//        Subject currentSubject = SecurityUtils.getSubject();
+//        Session session = currentSubject.getSession();
+//        session.setAttribute("loginUser",user);
+        if (user == null) return null;
+        return new SimpleAuthenticationInfo(user, user.getPwd(), "");
     }
 }
