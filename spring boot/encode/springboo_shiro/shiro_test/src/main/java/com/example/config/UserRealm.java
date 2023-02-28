@@ -24,8 +24,11 @@ public class UserRealm extends AuthorizingRealm {
         System.out.println("执行了=>授权doGetAuthorizationInfo");
 
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
+//        info.addStringPermission("user:add");
 
-        info.addStringPermission("user:add");
+        Subject subject = SecurityUtils.getSubject();
+        User currentUser = (User) subject.getPrincipal();
+        info.addStringPermission(currentUser.getPerms());
         return info;
     }
 
@@ -40,6 +43,6 @@ public class UserRealm extends AuthorizingRealm {
         User user = userService.queryUserByName(userToken.getUsername());
         if (user == null)
             return null;
-        return new SimpleAuthenticationInfo("",user.getPwd(),"");
+        return new SimpleAuthenticationInfo(user,user.getPwd(),"");
     }
 }
