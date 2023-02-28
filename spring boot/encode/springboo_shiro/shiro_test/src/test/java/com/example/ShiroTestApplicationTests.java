@@ -14,7 +14,7 @@ class ShiroTestApplicationTests {
 
     @Test
     void contextLoads() {
-        System.out.println(userService.queryUserByName("root"));
+        System.out.println(userService.queryUserByName("木木"));
     }
 
 }
