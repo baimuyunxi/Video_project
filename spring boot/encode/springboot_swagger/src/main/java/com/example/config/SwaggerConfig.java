@@ -32,6 +32,8 @@ public class SwaggerConfig {
 
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
+                // 配置 api 文档的分组
+                .groupName("白木云曦")
                 .enable(flag)  // .enable 是否启动swagger
                 .select()
                 // RequestHandlerSelectors.basePackage 指定扫描的包
@@ -39,6 +41,65 @@ public class SwaggerConfig {
                 .build();
     }
 
+    /*   配置多个api分组就配置多个Docket方法
+    @Bean
+    public Docket docket1(Environment environment) {
+
+        // 设置要显示的 swagger 环境
+        Profiles profiles = Profiles.of("dev");
+
+        // 通过 environment.acceptsProfiles 判断是否处在自己设定的环境中
+        boolean flag = environment.acceptsProfiles(profiles);
+
+        return new Docket(DocumentationType.SWAGGER_2)
+                .apiInfo(apiInfo())
+                // 配置 api 文档的分组
+                .groupName("A")
+                .enable(flag)  // .enable 是否启动swagger
+                .select()
+                // RequestHandlerSelectors.basePackage 指定扫描的包
+                .apis(RequestHandlerSelectors.basePackage("com.example.controller"))
+                .build();
+    }
+    @Bean
+    public Docket docket2(Environment environment) {
+
+        // 设置要显示的 swagger 环境
+        Profiles profiles = Profiles.of("dev");
+
+        // 通过 environment.acceptsProfiles 判断是否处在自己设定的环境中
+        boolean flag = environment.acceptsProfiles(profiles);
+
+        return new Docket(DocumentationType.SWAGGER_2)
+                .apiInfo(apiInfo())
+                // 配置 api 文档的分组
+                .groupName("B")
+                .enable(flag)  // .enable 是否启动swagger
+                .select()
+                // RequestHandlerSelectors.basePackage 指定扫描的包
+                .apis(RequestHandlerSelectors.basePackage("com.example.controller"))
+                .build();
+    }
+    @Bean
+    public Docket docket3(Environment environment) {
+
+        // 设置要显示的 swagger 环境
+        Profiles profiles = Profiles.of("dev");
+
+        // 通过 environment.acceptsProfiles 判断是否处在自己设定的环境中
+        boolean flag = environment.acceptsProfiles(profiles);
+
+        return new Docket(DocumentationType.SWAGGER_2)
+                .apiInfo(apiInfo())
+                // 配置 api 文档的分组
+                .groupName("C")
+                .enable(flag)  // .enable 是否启动swagger
+                .select()
+                // RequestHandlerSelectors.basePackage 指定扫描的包
+                .apis(RequestHandlerSelectors.basePackage("com.example.controller"))
+                .build();
+    }
+     */
     public ApiInfo apiInfo() {
         return new ApiInfo(
                 "Api BaiMuYunXi",
