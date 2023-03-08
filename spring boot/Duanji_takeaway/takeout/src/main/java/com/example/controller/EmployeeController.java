@@ -32,7 +32,7 @@ public class EmployeeController {
 
         //1、将页面提交的密码password进行md5加密处理
         String password = employee.getPassword();
-        DigestUtils.md5DigestAsHex(password.getBytes());
+        String verify = DigestUtils.md5DigestAsHex(password.getBytes());
 
         //2、根据页面提交的用户名username查询数据库
         LambdaQueryWrapper<Employee> queryWrapper = new LambdaQueryWrapper<>();
@@ -45,7 +45,7 @@ public class EmployeeController {
         }
 
         //4、密码比对，如果不一致则返回登录失败结果
-        if (!emp.getPassword().equals(password)) {
+        if (!emp.getPassword().equals(verify)) {
             return R.error("登录失败");
         }
 
