@@ -1,6 +1,7 @@
 package com.example.entity;
 
 import lombok.Data;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.time.LocalDateTime;
 
@@ -24,7 +25,7 @@ public class Employee {
 
     private String idName;
 
-    private String status;
+    private Integer status;
 
     private LocalDateTime createTime;
 
