@@ -23,7 +23,7 @@ public class Employee {
 
     private String sex;
 
-    private String idName;
+    private String idNumber;
 
     private Integer status;
 
@@ -31,7 +31,7 @@ public class Employee {
 
     private LocalDateTime updateTime;
 
-    private Long creatUser;
+    private Long createUser;
 
     private Long updateUser;
 
