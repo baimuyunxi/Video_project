@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 
-@Slf4j
+@Slf4j  //  log 打印注释
 @Configuration
 public class WebMvcConfig extends WebMvcConfigurationSupport {
     @Override
