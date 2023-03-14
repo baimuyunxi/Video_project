@@ -79,7 +79,7 @@ public class EmployeeController {
      * @return
      */
     @PostMapping
-    public R<String> save(HttpServletRequest request,@RequestBody Employee employee) {
+    public R<String> save(HttpServletRequest request, @RequestBody Employee employee) {
         log.info("新增员工，员工信息：{}", employee.toString());
 
         // 设置员工初始值
@@ -93,6 +93,11 @@ public class EmployeeController {
         employee.setUpdateUser(empId);
 
         // 封装
+//        try {
+//            employeeService.save(employee);
+//        } catch (Exception e) {
+//            R.error("新增员工失败!");
+//        }
         employeeService.save(employee);
 
         return R.success("新增员工成功!");
