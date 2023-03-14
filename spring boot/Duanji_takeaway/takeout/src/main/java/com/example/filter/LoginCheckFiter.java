@@ -31,8 +31,8 @@ public class LoginCheckFiter implements Filter {
         String[] urls = new String[]{   //  不需要请求的路径
                 "/employee/login",
                 "/employee/logout",
-                "/static/backend/**",
-                "/static/front/**"
+                "/backend/**",
+                "/front/**"
         };
         log.info("拦截到请求:{}", requestURI);
 
